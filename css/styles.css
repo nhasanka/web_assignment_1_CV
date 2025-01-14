@@ -12,7 +12,7 @@ body {
 }
 .container {
   width: 210mm;
-  height: 297mm;
+  /* height: 297mm; */
   background-color: #ffffff;
   /* border: 1px solid #000000; */
   padding: 20mm;
@@ -41,6 +41,12 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.profile,
+.work-experience,
+.skills {
+  margin-bottom: 50px;
 }
 .profile-info {
   /* border: 1px solid purple; */
@@ -103,4 +109,35 @@ body {
 }
 .language-list {
   line-height: 25px;
+}
+.body-column-two {
+  padding-left: 20px;
+}
+.profile p {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+.programming-language-list,
+.others-skills-list {
+  line-height: 25px;
+}
+.reference-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.reference-info > .persons h5 {
+  position: relative;
+  bottom: 17px;
+  margin: 0;
+}
+.reference-info > .persons p {
+  margin: 0;
+}
+/* Page Breaks for Print */
+@media print {
+  .container {
+    page-break-inside: avoid;
+  }
 }
