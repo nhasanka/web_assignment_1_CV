@@ -85,3 +85,19 @@ body {
 .contact-info p {
   width: 100%;
 }
+/* CV body section */
+.cv-body {
+  margin-top: 40px;
+  /* border: 1px solid#000000; */
+  display: flex;
+}
+.body-column-one {
+  width: 40%;
+  border-right: 2px solid rgb(162, 158, 158);
+  padding-right: 10px;
+}
+.body-column-two {
+  width: 60%;
+  border-left: 1px solid blue;
+  /* padding: 10px; */
+}
