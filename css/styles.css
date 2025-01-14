@@ -43,11 +43,6 @@ body {
   border-radius: 50%;
 }
 
-.profile,
-.work-experience,
-.skills {
-  margin-bottom: 50px;
-}
 .profile-info {
   /* border: 1px solid purple; */
   /* font-size: 24px; */
@@ -107,17 +102,20 @@ body {
   border-left: 1px solid blue;
   /* padding: 10px; */
 }
-.language-list {
-  line-height: 25px;
-}
 .body-column-two {
   padding-left: 20px;
+}
+.profile,
+.work-experience,
+.skills {
+  margin-bottom: 50px;
 }
 .profile p {
   margin: 0;
   padding: 0;
   line-height: 20px;
 }
+.language-list,
 .programming-language-list,
 .others-skills-list {
   line-height: 25px;
@@ -135,6 +133,68 @@ body {
 .reference-info > .persons p {
   margin: 0;
 }
+
+.skills-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.skills-subtitle,
+.other-skills-subtitle {
+  margin: 5px 0 20px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 40px;
+}
+
+.skills-list,
+.other-skills-list {
+  width: 50%;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill,
+.other-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-name,
+.other-skill-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.skill-rating,
+.other-skill-rating {
+  display: flex;
+  gap: 4px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.filled {
+  background-color: #0db5cf;
+}
+
+.dot:hover {
+  background-color: #0db5cf;
+}
+
 /* Page Breaks for Print */
 @media print {
   .container {
