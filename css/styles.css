@@ -93,11 +93,14 @@ body {
 }
 .body-column-one {
   width: 40%;
-  border-right: 2px solid rgb(162, 158, 158);
+  border-right: 2px solid #000000;
   padding-right: 10px;
 }
 .body-column-two {
   width: 60%;
   border-left: 1px solid blue;
   /* padding: 10px; */
+}
+.language-list {
+  line-height: 25px;
 }
