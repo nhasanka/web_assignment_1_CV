@@ -13,7 +13,7 @@ body {
 .container {
   width: 210mm;
   /* height: 297mm; */
-  background-color: #ffffff;
+  background-color: #fff6db;
   /* border: 1px solid #000000; */
   padding: 20mm;
   margin: 0 auto;
@@ -188,11 +188,11 @@ body {
 }
 
 .dot.filled {
-  background-color: #0db5cf;
+  background-color: #c1912f;
 }
 
 .dot:hover {
-  background-color: #0db5cf;
+  background-color: #a77a1f;
 }
 
 /* Page Breaks for Print */
